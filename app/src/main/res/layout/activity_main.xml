@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="INF.04 – Zadania z interfejsu"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp" />
+
+        <Button android:id="@+id/btnTask1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Zadanie 1: LinearLayout – logowanie" />
+        <Button android:id="@+id/btnTask2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Zadanie 2: ConstraintLayout – profil" />
+        <Button android:id="@+id/btnTask3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Zadanie 3: RelativeLayout – karta zadania" />
+        <Button android:id="@+id/btnTask4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Zadanie 4: FrameLayout – dzwonek" />
+        <Button android:id="@+id/btnTask5" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Zadanie 5: TableLayout – kalkulator" />
+        <Button android:id="@+id/btnTask6" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Zadanie 6: ScrollView – rejestracja" />
+        <Button android:id="@+id/btnTask7" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Zadanie 7: RecyclerView + CardView" />
+    </LinearLayout>
+</ScrollView>
